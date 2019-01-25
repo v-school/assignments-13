@@ -1,0 +1,25 @@
+h2 {
+    
+    font-family: 'News Cycle', sans-serif;
+    text-align: center;
+    font-size: 50px;
+    color: black;
+    margin: auto;
+
+
+
+}
+
+header{
+    color: red;
+    background-color: black;
+    font-family: 'News Cycle', sans-serif;
+    text-align: center;
+    font-size: 70px;
+}
+.para1 {
+    display: inline-block;
+    margin: 50px;
+
+
+}

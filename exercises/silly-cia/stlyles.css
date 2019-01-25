@@ -1,0 +1,33 @@
+#first-h1 {
+    text-align: center; 
+    font-family: Georgia;
+    color: darkgreen;
+
+}
+
+.sub-headline{
+    font-family: Georgia;
+    text-align: center;
+
+}
+
+img{
+    float: left;
+    margin: 20px;
+    height: auto;
+    width: 30%;
+}
+
+
+p{
+    line-height: 25px;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: red;
+    text-decoration: underline;
+}
