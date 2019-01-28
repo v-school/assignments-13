@@ -1,10 +1,10 @@
 h2 {
     
-    font-family: 'News Cycle', sans-serif;
+    font-family: 'News Cycle';
     text-align: center;
     font-size: 50px;
     color: black;
-    margin: auto;
+    margin-top: 35px;
 
 
 
@@ -13,13 +13,25 @@ h2 {
 header{
     color: red;
     background-color: black;
-    font-family: 'News Cycle', sans-serif;
+    font-family: 'Bangers', cursive;
     text-align: center;
     font-size: 70px;
 }
 .para1 {
     display: inline-block;
-    margin: 50px;
 
+
+}
+img{
+    width: 40%;
+    height: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p{
+    display: inline-block;
+    text-align: center;
 
 }
