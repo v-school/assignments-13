@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box; 
+    font-size: 40px;
+}
+header{
+    
+    text-align: center;
+    margin-top: 45px;
+    margin-bottom: 80px;
+}
+.grid-container{
+    background-color: #F5C6D6;
+    padding: 15px;
+    border: white;
+    border-width: thick;
+    width: 50%;
+    grid-gap: 10px;
+    grid-auto-columns: 4;
+    height: 110px;
+    margin: auto;
+}
+
