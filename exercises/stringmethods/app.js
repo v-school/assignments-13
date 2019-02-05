@@ -10,19 +10,23 @@
 
 //Second Question
 
-// function halfingNums(){
-
-// }
-
-// function findMiddleIndex(str) {
+// function doubleAndHalf(str) {
 //     var length =str.length;
 //     var half = length / 2;
 //     var resultFloored = Math.floor(half);
-//     return resultFloored;
-//  }
-//  function findMiddleIndex(str){
+// //     return resultFloored;
+// //  }
+//  function doubleAndHalf(str){
 //     return Math.floor(str.length / 2);
 //  }
 
-// console.log(findMiddleIndex("Hello")); //=>2
-// console.log(findMiddleIndex("Hello World")); //==5
+// console.log(doubleAndHalf("Hello")); //=>2
+// console.log(doubleAndHalf("Hello World")); //==5
+
+//Question 3 
+var str = "I am danny"
+function returnFirstHalf(str){
+    Math.floor(str.slice(0, 2));
+}
+
+console.log(str);

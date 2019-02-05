@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Travel Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="heading" >Explore New Lands</header>
+        <div class="header">
+            <p> Before all the explorinng happens, we'll need some info (sorry they make us) </p>
+        </div>
+
+ <div id="entireForm">
+    <form name="generalInfo">
+
+       Name: <input type="text" name="fname" placeholder="First Name">
+        <input type="text" name="lname" placeholder="Last Name">
+            <div class="age">
+                Age: <input type="number" name="inputAge" placeholder="Insert Age">
+            </div>
+
+        Gender: <input type="radio" name="gender" value="male"> Male </input>
+                <input type="radio" name="gender" value="female"> Female </input>
+
+            <div class="location">
+                <select required>
+                    <option value="defalut"> Select </option>
+                    <option value="Disneyland"> Disneyland </option>
+                    <option value="Rome"> Rome </option>
+                    <option value="Fiji"> Fiji </option>
+                </select>
+            </div>
+
+            <section class="dietSelection">
+               Vegan: <input type="checkbox" name="diet" value="vegan">
+               Lactose Free: <input type="checkbox" name="diet" value="lactose free">
+               Gluten Free: <input type="checkbox" name="diet" value="gluten free"> 
+
+            </section>
+        </div>
+        <div class="submit">
+            <button onclick="sumbit()" class="submitButton"> Submit </button>
+        </div>
+    </form>
+
+
+    <script src="app.js"> </script>
+</body>
+</html>

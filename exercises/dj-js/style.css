@@ -1,0 +1,10 @@
+.red-box {
+    height: 400px;
+    width: 400px;
+    background-color: #3F0E40;
+    margin: auto;
+}
+
+h1, h3 {
+    text-align: center;
+}

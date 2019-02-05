@@ -1,22 +1,72 @@
-* {
-    box-sizing: border-box; 
-    font-size: 40px;
-}
-header{
-    
-    text-align: center;
-    margin-top: 45px;
-    margin-bottom: 80px;
-}
-.grid-container{
-    background-color: #F5C6D6;
-    padding: 15px;
-    border: white;
-    border-width: thick;
-    width: 50%;
-    grid-gap: 10px;
-    grid-auto-columns: 4;
-    height: 110px;
-    margin: auto;
+.grid-container {
+  display: block;
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
 }
 
+.section {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.row-container {
+  height: 80px;
+  margin-bottom: 0px;
+}
+
+.row-container.column-container {
+  border-width: 4px;
+}
+
+.row-container.column-container.row-1 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-width: 1px;
+  background-color: #f5c6d6;
+}
+
+.row-container.column-container.row-4 {
+  background-color: #60f5f5;
+}
+
+.column-container {
+  display: block;
+  height: 80px;
+  padding-right: 0px;
+  padding-left: 0px;
+  border-style: solid;
+  border-color: #fff;
+  background-color: #f56060;
+}
+
+.column-container.row-2-column {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #ee2e84;
+}
+
+.column-container.row-3-column {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #85cfd8;
+}
+
+.column-container.row-4-column {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-style: solid;
+  background-color: #8dc63f;
+}
+
+.column-container.bottom-right {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #e76e34;
+}
+
+.heading {
+  position: static;
+  display: block;
+  text-align: center;
+}
