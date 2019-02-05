@@ -15,3 +15,5 @@ function totalCoins(e){
 }
 
 document.baddies.addEventListener("submit", totalCoins);
+
+// JavaScript looks great!
